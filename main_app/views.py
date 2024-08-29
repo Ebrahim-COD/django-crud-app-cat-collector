@@ -13,4 +13,4 @@ def home(request):
 # Define the about view function
 def about(request):
     # Send a simple HTML response
-    return HttpResponse('<h1>About the Cat Collector</h1>')
+    return render(request, 'about.html')
